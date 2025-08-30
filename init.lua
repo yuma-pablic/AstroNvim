@@ -25,3 +25,7 @@ end
 
 require "lazy_setup"
 require "polish"
+
+-- Buffer navigation with Ctrl + arrow keys
+vim.keymap.set("n", "<C-n>", "<cmd>bprev<CR>")
+vim.keymap.set("n", "<C-m>", "<cmd>bnext<CR>")
